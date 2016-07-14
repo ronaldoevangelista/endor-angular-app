@@ -10,8 +10,12 @@
         '@angular': 'node_modules/@angular',
         'angular2-in-memory-web-api': 'node_modules/angular2-in-memory-web-api',
         'rxjs': 'node_modules/rxjs',
+        'ng2-material': 'node_modules/ng2-material',
         '@angular2-material/core': 'node_modules/@angular2-material/core',
-        '@angular2-material/toolbar': 'node_modules/@angular2-material/toolbar'
+        '@angular2-material/core/overlay': 'node_modules/@angular2-material/core/overlay',
+        '@angular2-material/toolbar': 'node_modules/@angular2-material/toolbar',
+        '@angular2-material/checkbox': 'node_modules/@angular2-material/checkbox',
+        '@angular2-material/icon': 'node_modules/@angular2-material/icon',
     };
     // packages tells the System loader how to load when no filename and/or no extension
     var packages = {
@@ -30,8 +34,24 @@
             main: 'core.js',
             defaultExtension: 'js'
         },
+        '@angular2-material/checkbox': {
+            main: 'checkbox.js',
+            defaultExtension: 'js'
+        },
+        '@angular2-material/core/overlay': {
+            main: 'overlay.js',
+            defaultExtension: 'js'
+        },
         '@angular2-material/toolbar': {
             main: 'toolbar.js',
+            defaultExtension: 'js'
+        },
+        'ng2-material': {
+            main: 'index.js',
+            defaultExtension: 'js'
+        },
+        '@angular2-material/icon': {
+            main: 'icon.js',
             defaultExtension: 'js'
         },
     };

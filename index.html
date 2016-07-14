@@ -4,11 +4,13 @@
     <title>Endor Angular II</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <base href="/">   
-    
-     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <base href="/">
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
 
+    <link rel="stylesheet" href="node_modules/ng2-material/ng2-material.css">
+    <link rel="stylesheet" href="node_modules/ng2-material/font/font.css">
     <link rel="stylesheet" href="styles.css">
 
     <!-- 1. Load libraries -->
@@ -24,8 +26,6 @@
     <script src="systemjs.config.js"></script>
     <script>
         System.import('app').catch(function(err) {
-            System.import('main');
-
             console.error(err);
         });
     </script>
@@ -34,8 +34,8 @@
 <!-- 3. Display the application -->
 
 <body>
-    <my-app>Loading...</my-app>
-    <material2-app-app></material2-app-app>
+
+    <toolbar-app></toolbar-app>
 
 </body>
 

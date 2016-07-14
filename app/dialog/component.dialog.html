@@ -1,0 +1,6 @@
+<md-dialog #alert>
+    Clicking the button will close this dialog
+    <md-dialog-actions ok="Got It"></md-dialog-actions>
+</md-dialog>
+
+<button md-button (click)="alert.show()">Open Dialog</button>

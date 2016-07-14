@@ -1,5 +1,11 @@
 import { bootstrap }    from '@angular/platform-browser-dynamic';
-import { AppComponent ,Material2AppAppComponent} from './app.component';
+import {Toolbar} from './toolbar/component.toolbar';
 
-bootstrap(AppComponent);
-bootstrap(Material2AppAppComponent);
+//import {DialogBasicUsageComponent} from './dialog/component.dialog';
+
+//import { AppComponent ,Material2AppAppComponent} from './app.component';
+//bootstrap(AppComponent);
+
+
+bootstrap(Toolbar);
+//bootstrap(DialogBasicUsageComponent);
