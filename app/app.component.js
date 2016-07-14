@@ -9,6 +9,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var core_2 = require('@angular2-material/core');
+var toolbar_1 = require('@angular2-material/toolbar');
 var AppComponent = (function () {
     function AppComponent() {
     }
@@ -22,4 +24,23 @@ var AppComponent = (function () {
     return AppComponent;
 }());
 exports.AppComponent = AppComponent;
+var Material2AppAppComponent = (function () {
+    function Material2AppAppComponent() {
+    }
+    Material2AppAppComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: 'material2-app-app',
+            templateUrl: 'app.component.html',
+            styleUrls: ['app.component.css'],
+            providers: [core_2.MdUniqueSelectionDispatcher],
+            directives: [
+                toolbar_1.MD_TOOLBAR_DIRECTIVES,
+            ],
+        }), 
+        __metadata('design:paramtypes', [])
+    ], Material2AppAppComponent);
+    return Material2AppAppComponent;
+}());
+exports.Material2AppAppComponent = Material2AppAppComponent;
 //# sourceMappingURL=app.component.js.map
